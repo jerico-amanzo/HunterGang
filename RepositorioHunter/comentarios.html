@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios</title>
+    <link rel="stylesheet" type="text/css" href="css/contactanos.css">
+    <script src="https://kit.fontawesome.com/4c15c9460e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <header class="cabecera">
+            <section>
+                <h1><a href="inicio.html">INICIO</a></h1>
+            </section>
+            <section>
+                <h1><a href="productos.html">PRODUCTOS</a></h1>
+            </section>
+            <section>
+                <h1><a href="OBJETIVO.HTML">OBJETIVO</a></h1>
+            </section>
+            <section>
+                <h1><a href="comentarios.html">COMENTARIOS</a></h1>
+            </section>
+        </header>
+
+        <div class="content-form">
+            <section class="mensaje">
+                <h1>¿NECESITAS AYUDA?</h1>
+                <h2>Para Hunter Gand tu opinión es lo mas importante</h2>
+                <p>Si necesitas hacer una pregunta, consulta o solo dejar tu comentario, por favor completa el formulario. A continuación podrás enviar tus comentarios con sugerencias acerca de nuestros servicios y de la calidad de nuestros productos:
+                </p>
+            </section>
+
+            <div class="line"></div>
+
+            <aside class="contacto">
+                <form action="" id="formulario">
+                    <p>
+                        <label for="txtNom">NOMBRE</label>
+                        <input type="text" name="txtNom" id="txtNom" required maxlength="30">
+                    </p>
+
+                    <p>
+                        <label for="txtApe">APELLIDO</label>
+                        <input type="text" name="txtApe" id="txtApe" required maxlength="30">
+                    </p>
+
+                    <p>
+                        <label for="txtEmail">EMAIL</label>
+                        <input type="email" name="txtEmail" id="txtEmail" required>
+                    </p>
+
+                    <p>
+                        <label for="txtTel">TELEFONO</label>
+                        <input type="tel" name="txtTel" id="txtTel" required minlength="9" maxlength="9">
+                    </p>
+
+                    <p class="bloque">
+                        <label for="txtMen">MENSAJE</label>
+                        <textarea name="txtMen" id="txtMen" rows="10" required minlength="20" maxlength="1000"></textarea>
+                    </p>
+
+                    <p class="bloque">
+                        <button type="submit" onclick="Validar()">ENVIAR</button>
+                    </p>
+                </form>
+            </aside>
+        </div>
+
+        <footer>
+            <div class="derechos-reservados">
+                <h3>HUNTER GAND © - TODOS LOS DERECHOS RESERVADOS</h3>
+            </div>
+            
+            <div class="redes-sociales">
+                <ul>
+                    <li class="redes">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </li>
+    
+                    <li class="redes">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+    
+                    <li class="redes">
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="js/comentarios.js"></script>
+</body>
+</html>

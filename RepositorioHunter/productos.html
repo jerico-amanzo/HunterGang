@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilos1.css">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo " href="index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <nav class="navegacion">
+                    <a href="inicio.html" class="navegacion__enlace">Inicio</a>
+                    <a href="productos.html" class="navegacion__enlace">Productos</a>
+                    <a href="OBJETIVO.HTML" class="navegacion__enlace">Objetivo</a>
+                    <a href="comentarios.html" class="navegacion__enlace" >Comentarios</a>
+                
+                </nav>
+            </div>
+
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Hunter Gang</h2>
+            <p class="no-margin">Armas airsoft</p>
+        </div>
+    </header>
+    <div class="page-nav">
+        <h1>Productos</h1>
+        <button id="checkout" class="button-checkout" onclick="pay()" >Pagar</button>
+    </div>
+        <div class="page-content">
+        <div class="product-container">
+            <h3>Pistola Glock 19</h3>
+            <img src="img/Pistola Glock 19.jpg" />
+            <h1>$25</h1>
+            <button class="button-add" onclick="add('Pistola Glock 19', 25)" >Agregar</button>
+        </div>
+        
+        <div class="product-container">
+            <h3>Rifle M16</h3>
+            <img src="img/Rifle M16.jpg" />
+            <h1>$50</h1>
+            <button class="button-add" onclick="add('Rifle M16', 50)" >Agregar</button>
+        </div>
+        
+        <div class="product-container">
+            <h3>Rifle P90</h3>
+            <img src="img/Rifle P90.jpg" />
+            <h1>$32</h1>
+            <button class="button-add" onclick="add('Rifle P90', 32)" >Agregar</button>
+        </div>
+        
+        <div class="product-container">
+            <h3>Rifle de francotirador M4OA3</h3>
+            <img src="img/Rifle francotirador M4OA3.jpg" />
+            <h1>$65</h1>
+            <button class="button-add" onclick="add('Rifle francotirador M4OA3', 65)" >Agregar</button>
+        </div>
+        
+        <div class="product-container">
+            <h3>Escopeta M870</h3>
+            <img src="img/Escopeta M870.jpg" />
+            <h1>$42</h1>
+            <button class="button-add" onclick="add('Escopeta M870', 42)" >Agregar</button>
+        </div>
+        
+        <div class="product-container">
+            <h3>Rifle AK 47</h3>
+            <img src="img/AK 47.jpg" />
+            <h1>$76</h1>
+            <button class="button-add" onclick="add('AK 47', 76)" >Agregar</button>
+        </div>
+        
+        <div class="product-container">
+            <h3>KRYTAC TRIDENT</h3>
+            <img src="img/KRYTAC TRIDENT MK2.jpeg" />
+            <h1>$99</h1>
+            <button class="button-add" onclick="add('KRYTAC TRIDENT MK2', 99)" >Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Krytac Alpha</h3>
+            <img src="img/Krytac Alpha CRB.jpeg" />
+            <h1>$100</h1>
+            <button class="button-add" onclick="add('Krytac Alpha CRB', 100)" >Agregar</button>
+        </div>
+
+        <div class="product-container">
+            <h3>Marcadora tippmann 98</h3>
+            <img src="img/Marcadora tippmann 98.jpeg" />
+            <h1>$64</h1>
+            <button class="button-add" onclick="add('Marcadora tippmann 98', 64)" >Agregar</button>
+        </div>
+    </div>
+
+    <script src="https://account.snatchbot.me/script.js"></script>
+    
+    <script>window.sntchChat.Init(203836)</script>
+</body>
